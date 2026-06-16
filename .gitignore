@@ -1,5 +1,39 @@
-/tfod
-/Tensorflow
-/.ipynb_checkpoints
-/ipynb_checkpoints
-.ipynb_checkpoints
+# Python virtual environments
+tfod1/
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Dataset and generated data
+data/
+aug_data/
+logs/
+Tensorflow/
+!Tensorflow/scripts/
+!Tensorflow/scripts/**
+Tensorflow/workspace/images/
+Tensorflow/workspace/annotations/
+Tensorflow/workspace/models/
+Tensorflow/workspace/pre-trained-models/
+
+# Build / cache artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large model/binary artifacts
+*.tfrecord
+*.record
+*.pb
+*.pbtxt
+*.ckpt
+checkpoint
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
